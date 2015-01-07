@@ -1,0 +1,30 @@
+{
+  "name": "wise",
+  "version": "0.0.2",
+  "description": "A realtime node.js framework based on Socket.io and Redis ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wisejs/wise.git"
+  },
+  "keywords": [
+    "realtime",
+    "firebase",
+    "socket.io"
+  ],
+  "author": "mdemo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wisejs/wise/issues"
+  },
+  "homepage": "https://github.com/wisejs/wise",
+  "dependencies": {
+    "debug": "^2.1.1",
+    "merge": "^1.2.0",
+    "socket.io": "^1.2.1",
+    "waterline": "^0.10.14"
+  }
+}

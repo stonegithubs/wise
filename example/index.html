@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>index</title>
+    <script src="//cdn.jsdelivr.net/socket.io-client/1.2.0/socket.io.min.js"></script>
+    <script>
+        var socket = io('http://localhost:3000');
+        socket.on('connect', function () {
+            socket.emit('join', 'user.added');
+            socket.on('data', function(values){
+                console.log(values);
+            });
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
